@@ -1,0 +1,15 @@
+.btn-play-again{
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  padding: 15px 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.title-play-again{
+  margin:  0 auto;
+  text-transform: uppercase;
+  color: #df1111;
+  font-weight: bold;
+}

@@ -1,0 +1,144 @@
+.card-up{
+  margin-top: -30px;
+}
+.card-up-2{
+  transform: translateX(-60px) translateY(-30px)!important;
+}
+.card-img{
+  width: 150px;
+  height: 210px;
+  cursor: pointer;
+  display: block;
+}
+.cards-player{
+  position: fixed;
+  bottom: 50px;
+}
+
+.card-table{
+  margin: 0 auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-boss{
+  position: fixed;
+  top: 50px;
+}
+
+.btn-player-skip{
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+  padding: 12px 23px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 120px;
+}
+
+.btn-player-active{
+  position: absolute;
+  right: 100px;
+  font-size: 20px;
+  bottom: 100px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+  padding: 12px 23px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 120px;
+}
+
+.btn-player-sort{
+  position: absolute;
+  right: 100px;
+  font-size: 20px;
+  bottom: 200px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  cursor: pointer;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-weight: bold;
+  width: 120px;
+  background-color: #b213a9;
+  color: #fff;
+}
+
+.btn-ready-pr{
+  position: absolute;
+    left: 47%;
+    font-size: 25px;
+    top: 49%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    font-weight: bold;
+    width: 165px;
+    background-color: #61e5ff;
+    color: #a21717;
+}
+
+.btn-player-sort:hover{
+  color: #fff;
+  background-color: #93168c;
+}
+
+.arrow-left{
+  left: 0;
+}
+
+.arrow-right{
+  right: 0;
+}
+
+.arrow-control {
+  cursor: pointer;
+  position: absolute;
+  top: -70px;
+  width: 40px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.show-arrow-control{
+  visibility: visible!important;
+  opacity: 1!important;
+}
+
+.wrap-card-img-player{
+  position: relative;
+}
+
+.clock{
+  position: absolute;
+  top: 41%;
+  left: 150px;
+}
+.clock img{
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+.clock span{
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  font-size: 40px;
+  margin-top: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 0px #000000;
+}
+
+.play-boss-ducnh{
+  width: 100%;
+  height: 100vh;
+}

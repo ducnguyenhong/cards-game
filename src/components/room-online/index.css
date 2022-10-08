@@ -1,0 +1,75 @@
+.room-online{
+  width: 100%;
+  height: 100vh;
+}
+
+.room-online .container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.one-room-online{
+  width: 30%;
+  border: 1px solid #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 15px;
+  padding: 25px;
+  position: relative;
+}
+
+.one-room-online img.table {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.one-room-online img.person{
+  width: 15%;
+  display: block;
+  top: 0;
+}
+
+.one-room-online span.room-name {
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 30%;
+}
+
+.one-room-online .room-status-nobody{
+  color: #fff;
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.one-room-online .room-status-waiting{
+  color: #fff;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.one-room-online .room-status-playing{
+  color: #fff;
+  background-color: red;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
